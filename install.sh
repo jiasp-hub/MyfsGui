@@ -172,6 +172,7 @@ function ctrlc_clear(){
 	source /etc/profile
 	echo "1111111"
 	echo "2222222"
+	echo "3333333"
 }
 
 trap 'ctrlc_clear' INT QUIT
