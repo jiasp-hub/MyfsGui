@@ -170,6 +170,7 @@ function ctrlc_clear(){
 	rm -rf /etc/profile.d/freeswitch.sh
 	rm -rf $tmp_file
 	source /etc/profile
+	echo "1111111"
 }
 
 trap 'ctrlc_clear' INT QUIT
