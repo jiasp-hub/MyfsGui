@@ -171,6 +171,7 @@ function ctrlc_clear(){
 	rm -rf $tmp_file
 	source /etc/profile
 	echo "1111111"
+	echo "2222222"
 }
 
 trap 'ctrlc_clear' INT QUIT
